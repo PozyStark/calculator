@@ -37,7 +37,7 @@ public class Main {
         float a = scanner.nextFloat();
         System.out.print("b=");
         float b = scanner.nextFloat();
-        System.out.printf("%.4f + %.4f = %.4f", a, b, calculate(operator, a, b));
+        System.out.printf("%.4f %s %.4f = %.4f", a, operator, b, calculate(operator, a, b));
 
         scanner.close();
     }
